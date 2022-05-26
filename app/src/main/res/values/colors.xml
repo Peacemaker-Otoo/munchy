@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#399E11</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="colorPrimary">#2e87eb</color>
+    <color name="colorPrimaryDark">#2464AC</color>
+    <color name="colorAccent">#2e87eb</color>
+
+    <color name="colorTextDefault">#131313</color>
+    <color name="colorTextLabelDefault">#353535</color>
+    <color name="colorTextHintDefault">#434343</color>
+
+    <color name="colorTextWhite">#F3F3F3</color>
+
+</resources>-->
+
+<resources>
+<color name="md_theme_light_primary">#186D00</color>
+<color name="md_theme_light_onPrimary">#FFFFFF</color>
+<color name="md_theme_light_primaryContainer">#92FB6A</color>
+<color name="md_theme_light_onPrimaryContainer">#022100</color>
+<color name="md_theme_light_secondary">#256D09</color>
+<color name="md_theme_light_onSecondary">#FFFFFF</color>
+<color name="md_theme_light_secondaryContainer">#A7F786</color>
+<color name="md_theme_light_onSecondaryContainer">#022100</color>
+<color name="md_theme_light_tertiary">#006874</color>
+<color name="md_theme_light_onTertiary">#FFFFFF</color>
+<color name="md_theme_light_tertiaryContainer">#90F1FF</color>
+<color name="md_theme_light_onTertiaryContainer">#001F24</color>
+<color name="md_theme_light_error">#BA1B1B</color>
+<color name="md_theme_light_errorContainer">#FFDAD4</color>
+<color name="md_theme_light_onError">#FFFFFF</color>
+<color name="md_theme_light_onErrorContainer">#410001</color>
+<color name="md_theme_light_background">#FCFCFC</color>
+<color name="md_theme_light_onBackground">#201A19</color>
+<color name="md_theme_light_surface">#FCFCFC</color>
+<color name="md_theme_light_onSurface">#201A19</color>
+<color name="md_theme_light_surfaceVariant">#DFE4D7</color>
+<color name="md_theme_light_onSurfaceVariant">#43483F</color>
+<color name="md_theme_light_outline">#73796D</color>
+<color name="md_theme_light_inverseOnSurface">#FBEEEC</color>
+<color name="md_theme_light_inverseSurface">#362F2E</color>
+<color name="md_theme_light_inversePrimary">#77DE51</color>
+<color name="md_theme_light_shadow">#000000</color>
+<color name="md_theme_light_primaryInverse">#77DE51</color>
+
+
+<color name="md_theme_dark_primary">#000000</color>
+<color name="md_theme_dark_onPrimary">#073900</color>
+<color name="md_theme_dark_primaryContainer">#105300</color>
+<color name="md_theme_dark_onPrimaryContainer">#92FB6A</color>
+<color name="md_theme_dark_secondary">#8CDA6D</color>
+<color name="md_theme_dark_onSecondary">#073900</color>
+<color name="md_theme_dark_secondaryContainer">#0F5300</color>
+<color name="md_theme_dark_onSecondaryContainer">#A7F786</color>
+<color name="md_theme_dark_tertiary">#4FD8EB</color>
+<color name="md_theme_dark_onTertiary">#00363D</color>
+<color name="md_theme_dark_tertiaryContainer">#004F59</color>
+<color name="md_theme_dark_onTertiaryContainer">#90F1FF</color>
+<color name="md_theme_dark_error">#FFB4A9</color>
+<color name="md_theme_dark_errorContainer">#930006</color>
+<color name="md_theme_dark_onError">#680003</color>
+<color name="md_theme_dark_onErrorContainer">#FFDAD4</color>
+<color name="md_theme_dark_background">#201A19</color>
+<color name="md_theme_dark_onBackground">#EDE0DE</color>
+<color name="md_theme_dark_surface">#201A19</color>
+<color name="md_theme_dark_onSurface">#EDE0DE</color>
+<color name="md_theme_dark_surfaceVariant">#43483F</color>
+<color name="md_theme_dark_onSurfaceVariant">#C3C8BB</color>
+<color name="md_theme_dark_outline">#8D9287</color>
+<color name="md_theme_dark_inverseOnSurface">#201A19</color>
+<color name="md_theme_dark_inverseSurface">#EDE0DE</color>
+<color name="md_theme_dark_inversePrimary">#186D00</color>
+<color name="md_theme_dark_shadow">#000000</color>
+<color name="md_theme_dark_primaryInverse">#186D00</color>
+<color name="seed">#399E11</color>
+<color name="error">#BA1B1B</color>
+<color name="Custom0">#BD10B0</color>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/drawable-xxhdpi/custom_thumb.xml" value="0.2965" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/drawable-xxhdpi/custom_track.xml" value="0.2965" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/drawable/bg_button_primary.xml" value="0.249" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/drawable/btn_background.xml" value="0.162" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/drawable/ic_doodle.xml" value="0.124" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/drawable/ic_icons_google.xml" value="0.2285" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/drawable/ic_twitter_logo.xml" value="0.1745" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/drawable/logo_background.xml" value="0.1605" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/drawable/noodle_background.xml" value="0.2" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout-land/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/activity_auth.xml" value="0.1824074074074074" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/activity_home.xml" value="0.2609375" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/activity_home_controller.xml" value="0.2609375" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/activity_main_app.xml" value="0.2609375" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_dashboard.xml" value="0.2609375" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_email_verification.xml" value="0.2" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_first.xml" value="0.2609375" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_fourth.xml" value="0.16925675675675675" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_landing.xml" value="0.176" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_login.xml" value="0.176" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_recovery_code.xml" value="0.16925675675675675" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_register.xml" value="0.152" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_reset_password.xml" value="0.16925675675675675" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_second.xml" value="0.246875" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_send_email.xml" value="0.176" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_successful_reset.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
