@@ -208,6 +208,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_50sdp"
                     android:layout_marginTop="@dimen/_2sdp"
+                    android:backgroundTint="#90D772"
                     android:layout_marginEnd="@dimen/_1sdp"
                     android:layout_marginBottom="@dimen/_1sdp"
                     android:text="@string/sign_in"

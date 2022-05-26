@@ -15,5 +15,32 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+        android:id="@+id/dots_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_50sdp"
+        app:dotsColor="@color/md_theme_dark_onPrimary"
+        app:dotsCornerRadius="@dimen/_5sdp"
+        app:dotsSize="@dimen/_5sdp"
+        app:dotsSpacing="@dimen/_2sdp"
+        app:dotsWidthFactor="2"
+        app:layout_constraintBottom_toBottomOf="@+id/pager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:progressMode="true"
+        app:selectedDotColor="@color/md_theme_light_onBackground" />
+
+    <!--
+    dotsColor	Color of the indicator dot
+dotsStrokeColor	Color of the stroke dots (by default the indicator color)
+dotsSize	Size in dp of the dots (by default 16dp)
+dotsSpacing	Size in dp of the space between the dots (by default 4dp)
+dotsCornerRadius	The dots corner radius (by default the half of dotsSize for circularity)
+dotsStrokeWidth	The dots stroke width (by default 2dp)
+dampingRatio	The damping ratio of the spring force (by default 0.5)
+stiffness	The stiffness of the spring force (by default 300)
+
+    -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

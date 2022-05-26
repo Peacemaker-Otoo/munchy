@@ -214,6 +214,7 @@
                 android:layout_height="@dimen/_50sdp"
                 android:layout_marginTop="@dimen/_1sdp"
                 android:layout_marginEnd="@dimen/_1sdp"
+                android:backgroundTint="#90D772"
                 android:layout_marginBottom="@dimen/_1sdp"
                 android:text="@string/cart"
                 android:textAllCaps="false" />

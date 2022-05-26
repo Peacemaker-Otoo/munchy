@@ -20,11 +20,16 @@ class SlideControllerActivity : FragmentActivity() {
         setContentView(binding.root)
 
         viewPager = binding.pager
-        viewPager.setPageTransformer(ZoomOutPageTransformer())
-
+        val zoomOutPageTransformer = ZoomOutPageTransformer()
+        viewPager.setPageTransformer{page, position ->
+        zoomOutPageTransformer.transformPage(page,position)
+        }
 
         val pagerAdapter = ScreenSlidePagerAdapter(this)
         viewPager.adapter = pagerAdapter
+
+        //setting the pager indicator
+       binding.dotsIndicator.attachTo(viewPager)
     }
 
     override fun onBackPressed() {
@@ -36,9 +41,5 @@ class SlideControllerActivity : FragmentActivity() {
             // Otherwise, select the previous step.
             viewPager.currentItem = viewPager.currentItem - 1
         }
-    }
-
-    companion object {
-        private const val NUM_PAGES = 3
     }
 }

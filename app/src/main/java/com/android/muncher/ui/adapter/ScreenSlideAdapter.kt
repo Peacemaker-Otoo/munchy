@@ -5,16 +5,11 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
+import com.android.muncher.ui.adapter.ZoomOutPageTransformer.Companion.NUM_PAGES
 import com.android.muncher.ui.onboarding.FirstFragment
 import com.android.muncher.ui.onboarding.FourthFragment
 import com.android.muncher.ui.onboarding.SecondFragment
 import com.android.muncher.ui.onboarding.ThirdFragment
-
-/**
- * The number of pages (wizard steps) to show in this demo.
- */
-private const val NUM_PAGES = 4
-
 /**
  * A simple pager adapter that represents 5 ScreenSlidePageFragment objects, in
  * sequence.
@@ -26,10 +21,10 @@ class ScreenSlidePagerAdapter(fa: FragmentActivity) : FragmentStateAdapter(fa) {
             0 -> {
                 FirstFragment()
             }
-            1->{
+            1 -> {
                 SecondFragment()
             }
-            2->{
+            2 -> {
                 ThirdFragment()
             }
             else -> {
@@ -78,6 +73,7 @@ class ZoomOutPageTransformer : ViewPager2.PageTransformer {
     }
 
     companion object {
+        const val NUM_PAGES = 4
         private const val MIN_SCALE = 0.85f
         private const val MIN_ALPHA = 0.5f
     }
