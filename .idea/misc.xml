@@ -18,6 +18,7 @@
         <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/activity_home_controller.xml" value="0.2609375" />
         <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/activity_main_app.xml" value="0.2609375" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/activity_slide_controller.xml" value="0.23585526315789473" />
         <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_dashboard.xml" value="0.2609375" />
         <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_email_verification.xml" value="0.2" />
         <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_first.xml" value="0.2609375" />
@@ -25,12 +26,15 @@
         <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_landing.xml" value="0.176" />
         <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_login.xml" value="0.176" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_password_reset.xml" value="0.23585526315789473" />
         <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_recovery_code.xml" value="0.16925675675675675" />
         <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_register.xml" value="0.152" />
         <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_reset_password.xml" value="0.16925675675675675" />
         <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_second.xml" value="0.246875" />
         <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_send_email.xml" value="0.176" />
         <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/fragment_successful_reset.xml" value="0.264" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/screen_slide.xml" value="0.11907894736842105" />
+        <entry key="..\:/Users/PeacemakerNanaKwesiO/Desktop/Muncher/app/src/main/res/layout/slider_controller.xml" value="0.11907894736842105" />
       </map>
     </option>
   </component>

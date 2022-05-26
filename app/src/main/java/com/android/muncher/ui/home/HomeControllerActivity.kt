@@ -31,7 +31,6 @@ class HomeControllerActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityHomeControllerBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        setContentView(R.layout.activity_home_controller)
 
          val navView: BottomNavigationView = binding.navView
 

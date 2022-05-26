@@ -13,6 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Muncher">
+        <activity
+            android:name=".ui.onboarding.SlideControllerActivity"
+            android:exported="false" />
         <activity android:name=".ui.home.HomeControllerActivity" />
         <activity android:name=".ui.auth.AuthControllerActivity" />
         <activity

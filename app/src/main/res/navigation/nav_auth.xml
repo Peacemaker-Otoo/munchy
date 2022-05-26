@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_auth"
-    app:startDestination="@id/landingFragment">
+    app:startDestination="@id/loginFragment">
 
     <fragment
         android:id="@+id/loginFragment"
@@ -84,5 +84,10 @@
             android:id="@+id/action_landingFragment_to_registrationFragment"
             app:destination="@id/registrationFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/sliderController"
+        tools:layout="@layout/activity_slide_controller"
+        android:name="com.android.muncher.ui.onboarding.SlideControllerActivity"
+        android:label="SliderController" />
 
 </navigation>

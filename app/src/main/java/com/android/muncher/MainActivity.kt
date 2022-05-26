@@ -8,6 +8,7 @@ import androidx.lifecycle.lifecycleScope
 import com.android.muncher.data.network.source.UserPreferences
 import com.android.muncher.ui.auth.AuthControllerActivity
 import com.android.muncher.ui.home.HomeControllerActivity
+import com.android.muncher.ui.onboarding.SlideControllerActivity
 import com.android.muncher.ui.util.startNewActivity
 import kotlinx.coroutines.delay
 
@@ -19,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         userPreferences.accessToken.asLiveData().observe(this, Observer {
             lifecycleScope.launchWhenStarted {
                 val activity =
-                    if (it == null) AuthControllerActivity::class.java else HomeControllerActivity::class.java
+                    if (it == null) SlideControllerActivity::class.java else HomeControllerActivity::class.java
                 delay(3000)
                 startNewActivity(activity)
             }
