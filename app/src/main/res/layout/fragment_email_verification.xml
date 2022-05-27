@@ -63,6 +63,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/loginEmail"
+            android:background="@drawable/ic_edit_text_background"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fontFamily="@font/dm_sans_medium"
@@ -78,7 +79,7 @@
         app:layout_constraintTop_toBottomOf="@+id/registerEmailInputLayout">
 
         <Button
-            android:id="@+id/loginBtn"
+            android:id="@+id/sendCodeBtn"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_50sdp"
             android:layout_marginTop="@dimen/_1sdp"

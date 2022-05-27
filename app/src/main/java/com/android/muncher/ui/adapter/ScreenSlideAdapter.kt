@@ -7,9 +7,10 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
 import com.android.muncher.ui.adapter.ZoomOutPageTransformer.Companion.NUM_PAGES
 import com.android.muncher.ui.onboarding.FirstFragment
-import com.android.muncher.ui.onboarding.FourthFragment
+import com.android.muncher.ui.onboarding.LandingFragment
 import com.android.muncher.ui.onboarding.SecondFragment
 import com.android.muncher.ui.onboarding.ThirdFragment
+
 /**
  * A simple pager adapter that represents 5 ScreenSlidePageFragment objects, in
  * sequence.
@@ -28,7 +29,7 @@ class ScreenSlidePagerAdapter(fa: FragmentActivity) : FragmentStateAdapter(fa) {
                 ThirdFragment()
             }
             else -> {
-                FourthFragment()
+               LandingFragment()
             }
         }
     }

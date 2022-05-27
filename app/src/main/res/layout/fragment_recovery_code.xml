@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:fontFamily="@font/dm_sans_medium"
-            android:text="@string/insert_your_email_to_get_recovery_code"
+            android:text="@string/please_enter_the_4_digit_code_from_your_email"
             android:textSize="@dimen/_13ssp" />
 
     </LinearLayout>
@@ -45,6 +45,7 @@
         android:padding="@dimen/_1sdp"
         android:layout_marginTop="@dimen/_25sdp"
         app:pinLength="5"
+        app:pinBackground="@drawable/ic_edit_view_background"
         app:layout_constraintEnd_toEndOf="@+id/header"
         app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="@+id/header"

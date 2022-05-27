@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_auth"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/landingFragment">
 
     <fragment
         android:id="@+id/loginFragment"
@@ -48,12 +48,19 @@
         <action
             android:id="@+id/action_sendEmailFragment_to_emailVerificationFragment"
             app:destination="@id/emailVerificationFragment" />
+        <action
+            android:id="@+id/action_sendEmailFragment_to_recoveryCodeFragment"
+            app:destination="@id/recoveryCodeFragment" />
     </fragment>
     <fragment
         android:id="@+id/thirdFragment"
         android:name="com.android.muncher.ui.onboarding.ThirdFragment"
         android:label="fragment_third"
-        tools:layout="@layout/fragment_third" />
+        tools:layout="@layout/fragment_third" >
+        <action
+            android:id="@+id/action_thirdFragment_to_landingFragment"
+            app:destination="@id/landingFragment" />
+    </fragment>
     <fragment
         android:id="@+id/firstFragment"
         android:name="com.android.muncher.ui.onboarding.FirstFragment"
@@ -85,9 +92,27 @@
             app:destination="@id/registrationFragment" />
     </fragment>
     <fragment
-        android:id="@+id/sliderController"
-        tools:layout="@layout/activity_slide_controller"
-        android:name="com.android.muncher.ui.onboarding.SlideControllerActivity"
-        android:label="SliderController" />
+        android:id="@+id/passwordResetFragment"
+        android:name="com.android.muncher.ui.auth.PasswordResetFragment"
+        android:label="fragment_password_reset"
+        tools:layout="@layout/fragment_password_reset" >
+        <action
+            android:id="@+id/action_passwordResetFragment_to_successfulResetFragment"
+            app:destination="@id/successfulResetFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recoveryCodeFragment"
+        android:name="com.android.muncher.ui.auth.RecoveryCodeFragment"
+        android:label="fragment_recovery_code"
+        tools:layout="@layout/fragment_recovery_code" >
+        <action
+            android:id="@+id/action_recoveryCodeFragment_to_passwordResetFragment"
+            app:destination="@id/passwordResetFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/successfulResetFragment"
+        android:name="com.android.muncher.ui.auth.SuccessfulResetFragment"
+        android:label="fragment_successful_reset"
+        tools:layout="@layout/fragment_successful_reset" />
 
 </navigation>

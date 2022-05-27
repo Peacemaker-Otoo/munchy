@@ -19,7 +19,7 @@
         android:id="@+id/dots_indicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_90sdp"
         app:dotsColor="@color/md_theme_dark_onPrimary"
         app:dotsCornerRadius="@dimen/_5sdp"
         app:dotsSize="@dimen/_5sdp"
@@ -29,7 +29,40 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:progressMode="true"
-        app:selectedDotColor="@color/md_theme_light_onBackground" />
+        app:selectedDotColor="@color/md_theme_light_onPrimary" />
+
+     <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dots_indicator">
+
+        <Button
+            android:id="@+id/slideBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_1sdp"
+            android:background="@drawable/ic_next_background"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:backgroundTint="@color/md_theme_light_onPrimary"
+            android:text="@string/next"
+            android:textAllCaps="false"
+            android:textColor="@color/md_theme_light_primary" />
+
+         <ImageView
+             android:id="@+id/loader"
+             android:layout_width="@dimen/_30sdp"
+             android:layout_height="@dimen/_30sdp"
+             android:layout_centerInParent="true"
+             android:clickable="true"
+             android:background="@drawable/ic_arrow_background"
+             android:contentDescription="@string/app_name"
+             android:visibility="invisible" />
+    </RelativeLayout>
 
     <!--
     dotsColor	Color of the indicator dot

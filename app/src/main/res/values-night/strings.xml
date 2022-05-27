@@ -48,4 +48,11 @@
     <string name="homepage">Homepage</string>
     <string name="cart">Cart</string>
     <string name="lorem_ipsum">slide</string>
+    <string name="do_know_that_burger_you_love_can_order_it_too">Do know that Burger you love can order it too</string>
+    <string name="burger2">Okay Just take a look this burger, \nyeah can order it too</string>
+    <string name="burger3">Dear Muncher sign up and \norder that burger too</string>
+    <string name="next">Next</string>
+    <string name="go_to_previous_sreen">Prev</string>
+    <string name="please_enter_the_4_digit_code_from_your_email">Please, enter the 4 digit code from your email</string>
+    <string name="please_enter_your_new_password">Please, enter your new password</string>
 </resources>

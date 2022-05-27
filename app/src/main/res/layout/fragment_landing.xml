@@ -75,7 +75,7 @@
         <Button
             android:id="@+id/registerBtn"
             style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/_80sdp"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_5sdp"
             android:fontFamily="@font/inter_semi_bold"

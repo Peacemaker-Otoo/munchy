@@ -69,17 +69,4 @@ class RegisterFragment : Fragment(R.layout.fragment_register) {
 
     }
 
-    /* private fun onCheckboxClicked(view: View): Boolean {
-         if (view is CheckBox) {
-             val checked: Boolean = view.isChecked
-             if (view.id == R.id.terms) {
-                 if (checked) {
-                     register()
-                 } else {
-                     binding.terms.text = getString(R.string.confirm_terms)
-                 }
-             }
-         }
-         return false
-     }*/
 }

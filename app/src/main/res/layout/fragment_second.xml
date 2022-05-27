@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00950F"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.onboarding.SecondFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+   <ImageView
+        android:id="@+id/view1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:foreground="@drawable/ic_bording_background"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:src="@drawable/unsplashplkgcsboiw4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:textAlignment="center"
+        android:fontFamily="@font/inter_medium"
+        android:text="@string/burger2"
+        android:textColor="@color/md_theme_light_onPrimary"
+        app:layout_constraintEnd_toEndOf="@+id/view1"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintStart_toStartOf="@+id/view1"
+        app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
