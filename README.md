@@ -18,7 +18,35 @@ Some other features are as following:
 - Tested using Espresso. Written unit, instrumentation and UI tests.
 
 
-## Authentication screenshot
+## Munchy Application screenshots
 |                                           authentication mobile navigation                                |
 | :-------------------------------------------------------------------------------------------------------: |
 | ![](screenshots/mobile_auths_navs.png)                                                                    |
+
+
+## onBoarding screens
+
+|      Screen 1               |             Screen 2        |           Screen 3          |
+| :-------------------------: | :-------------------------: | :--------------------------:|
+| ![](screenshots/board1.png) | ![](screenshots/board2.png) | ![](screenshots/board3.png) |
+
+
+## authentication screens
+|                 Signup              |           Sign up Agreement      |             Login         |
+| :---------------------------------: | :------------------------------: | :------------------------:|
+| ![](screenshots/registration.png) | ![](screenshots/registration2.png) | ![](screenshots/login.png) |
+
+|           Email verification     |             Open email link            |             OTP                    |               Password reset        |         Reset all done          |
+| :------------------------------: | :---------------------------------- -: | :---------------------------------:| :---------------------------------: | :----------------------------:  |
+| ![](screenshots/email_verification.png) | ![](screenshots/open_email.png) | ![](screenshots/code_recovery.png) | ![](screenshots/reset_password.png) | ![](screenshots/reset_done.png) |
+
+
+##Stack
+- Kotlin
+- Java
+- Postgres
+- Room
+- Datastore
+-Exposed
+- Material component
+- Glide
