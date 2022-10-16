@@ -32,22 +32,38 @@ Some other features are as following:
 
 
 ## authentication screens
-|                 Signup              |           Sign up Agreement        |             Login            |
-| :---------------------------------: | :--------------------------------: | :---------------------------:|
-| ![](screenshots/registration.png)   | ![](screenshots/registration2.png) | ![](screenshots/login.png)   |
+|                 Signup      |    Sign up Agreement               |             Login              |
+| :-------------------------: | :--------------------------------: | :-----------------------------:|
+| ![](screenshots/registration.png)|![](screenshots/registration2.png) | ![](screenshots/login.png) |
 
 ## Password reset process
 
-|           Email verification            |             Open email link            |             OTP                    |               Password reset        |         Reset all done          |
-| :-------------------------------------: | :------------------------------------: | :---------------------------------:| :---------------------------------: | :----------------------------:  |
-| ![](screenshots/email_verification.png) | ![](screenshots/open_email.png)        | ![](screenshots/code_recovery.png) | ![](screenshots/reset_password.png) | ![](screenshots/reset_done.png) |
+|           Email verification            |             Open email link            |             OTP                    |
+| :-------------------------------------: | :------------------------------------: | :---------------------------------:| 
+| ![](screenshots/email_verification.png) | ![](screenshots/open_email.png)        | ![](screenshots/code_recovery.png) | 
+
+
+
+|               Password reset       |         Reset all done          |
+| :---------------------------------:| :------------------------------:|
+| ![](screenshots/reset_password.png)| ![](screenshots/reset_done.png) |
+
+
 
 ## Stack
+### Frontend-android
 - Kotlin
 - Java
-- Postgres
 - Room
 - Datastore
--Exposed
-- Material component
+- Corountines
+- Material design component
+- MVVM Architecture
 - Glide
+
+### Backend -REST APIs
+- Springboot
+- MVC
+- JPA
+- Spring security
+- Hibernations
