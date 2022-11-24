@@ -164,6 +164,13 @@ data class StudentInfo(
 enum class HasCheckbox {
     TRUE, FALSE
 }
-
+  /* val recyclerView = binding.studentRecycler
+        recyclerView.apply {
+            layoutManager = LinearLayoutManager(requireContext())
+            setHasFixedSize(true)
+            adapter = ClassroomAdapter(stdList.getStudentList()) { _, data ->
+                Log.d("CLICKS", "YOU CLICK  FRAGMENT \n $data")
+            }
+        }*/
 //ListAdapter<StudentData, ClassroomAdapter.StudentListViewHolder>(ListComparator())
 //https://www.section.io/engineering-education/implementing-multiple-viewholders-in-android-using-kotlin/
