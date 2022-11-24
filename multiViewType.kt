@@ -58,11 +58,6 @@ class ClassroomAdapter(
         }
     }
 
-   /* override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
-        return StudentListViewHolder(
-            StudentListBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-        )
-    }*/
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         if (getItemViewType(position) == HASCHKBOX){
@@ -98,36 +93,6 @@ class ClassroomAdapter(
     }
 
     //bind the model list to the recycler list
-   /* @SuppressLint("SetTextI18n")
-    override fun onBindViewHolder(holder: StudentListViewHolder, position: Int) {
-        val getItemPosition = getItem(position)
-        holder.bind(getItemPosition)
-            onView.onHideView(holder.binding.isChecked)
-        holder.binding.isChecked.setOnCheckedChangeListener { _, isChecked ->
-            if (isChecked) {
-                data.add(
-                    StudentInfo(
-                        firstName = getItemPosition.Frist_Name,
-                        lastName = getItemPosition.Last_Name,
-                        gender = getItemPosition.Gender,
-                    )
-                )
-                itemCheckListener(true, data)
-                holder.binding.llh1.setBackgroundColor(Color.WHITE)
-            } else {
-                itemCheckListener(false, data)
-                data.remove(
-                    StudentInfo(
-                        firstName = getItemPosition.Frist_Name,
-                        lastName = getItemPosition.Last_Name,
-                        gender = getItemPosition.Gender
-                    )
-                )
-                holder.binding.llh1.setBackgroundColor(Color.parseColor("#ECECEC"))
-            }
-        }
-    }*/
-
     override fun getItemViewType(position: Int): Int {
         return if (studentData[position].hasCheckbox == HasCheckbox.TRUE) HASCHKBOX else NOCHKBOX
     }
